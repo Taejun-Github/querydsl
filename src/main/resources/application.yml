@@ -12,6 +12,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
+        use_sql_commments: true
 
 logging.level:
   org.hibernate.SQL: debug
